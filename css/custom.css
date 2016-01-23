@@ -1,15 +1,11 @@
-
-.col-lg-1 {
+/* mosaic container */
+.container.tiles {
+	padding-top: 30px;
 }
-.col-lg-2 {
 
-}
-.col-lg-3 {
 
-}
-.col-lg-4 {
+/* Style sheet for second mosaic */
 
-}
 .col-lg-4.s {
 	margin-top: -20px;
 	min-height: 166px;
@@ -34,10 +30,5 @@
 .row2 {
 	text-align: right;
 }
-.row3 {
-	padding-top: 110px;
-}
-.container.tiles {
-	padding-top: 30px;
-}
+
 
