@@ -1,49 +1,42 @@
-
-.col-lg-1 {
-	border: dashed;
+/* mosaic container */
+.container.tiles {
+	padding-top: 30px;
 }
-.col-lg-2 {
-	border: dashed;
 
-}
-.col-lg-3 {
-	border: dashed;
 
-}
-.col-lg-4 {
-	border: dashed;
+/* Style sheet for second mosaic */
 
-}
 .col-lg-4.s {
-	border: solid;
 	margin-top: -20px;
 	min-height: 166px;
 }
 .col-lg-3.s {
-	border: solid;
 	margin-top: -60px;
 	min-height: 206px;
 }
 .col-lg-3.d {
-	border: solid;
 	margin-top: -80px;
 	min-height: 225px;
 }
 .col-lg-2.s {
-	border: solid;
 	min-height: 140px;
 }
 .col-lg-12 {
 	text-align: right;
-	border: solid;
 }
 .col-lg-10 {
 	text-align: right;
-	border: solid;
 }
 .row2 {
 	text-align: right;
 }
-.row3 {
-	padding-top: 110px;
+
+/* for New Mosaic */
+.grid-item { 
+    width: 200px; 
+    position: absolute
+}
+.grid-item--width2 { 
+    width: 400px; 
+    position: absolute
 }

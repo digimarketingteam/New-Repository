@@ -6,22 +6,85 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/custom.css" rel="stylesheet">
 	<script src="js/respond.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
 </head>
 <body>
-	<header class="row1">
-		<div class="col-lg-2">
-			<img src="img/logo.png"></img>
+
+	<!-- Menu & logo & Navigation !-->
+	<div class="container">
+		<header class="row1">
+			<div class="col-lg-2">
+				<img src="img/logo.png"></img>
+			</div>
+			<div class="col-lg-10"><br> search and menu goes here
+			</div>
+		</header>
+		<div class="row2">
+			<div class="col-lg-12">
+			navigation goes here
+			</div>
 		</div>
-		<div class="col-lg-10"><br> search and menu goes here
-		</div>
-	</header>
-	<div class="row2">
-		<div class="col-lg-12">
-		navigation goes here
+	</div>
+	
+    <!-- ----------------------------------------------- --!>
+	<!-- New Mosaic !-->
+	<div class="container">
+		<div class="grid effect-1" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }' >
+            <div class="grid-item grid-item--width2"> <img src="img/400x.png"></img></div>
+            <div class="grid-item"> <img src="img/200x.png"></img></div>
+            <div class="grid-item"> <img src="img/200x2.png"></img></div>
+            <div class="grid-item"> <img src="img/400x2.png"></img></div>
+            <div class="grid-item"> <img src="img/200x.png"></img></div>
+            <div class="grid-item"> <img src="img/400x2.png"></img></div>
+            <div class="grid-item grid-item--width2"> <img src="img/400x.png"></img></div>
+            
+        </div>
+	</div>
+   <!-- ----------------------------------------------- --!>
+   <!-- Mosaic !-->
+	<div class="container tiles">
+		<div class="tiles">
+			<div class="col-lg-2 left1">
+				<div class="row 1">
+					<img class="img-responsive" src="img/1.png"></img>
+				</div>
+				<div class="row 2">
+					<img class="img-responsive" src="img/2.jpg"></img>
+				</div>
+			</div>
+			<div class="col-lg-3 left2">
+				<div class="row 3">
+					<img class="img-responsive" src="img/3.jpg"></img>
+				</div>
+				<div class="row 4">
+					<img class="img-responsive" src="img/4.png"></img>
+				</div>
+				<div class="row 5">
+					<img class="img-responsive" src="img/5.jpg"></img>
+				</div>
+			</div>
+			<div class="col-lg-3 right1">
+				<div class="row 6">
+					<img class="img-responsive" src="img/6.jpg"></img>
+				</div>
+				<div class="row 7">
+					<img class="img-responsive" src="img/7.jpg"></img>
+				</div>
+			</div>
+			<div class="col-lg-4  right2">
+				<div class="row 8">
+					<img class="img-responsive" src="img/8.png"></img>
+				</div>
+				<div class="row 9">
+					<img class="img-responsive" src="img/9.jpg"></img>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	
+
+	<!-- second mosaic !-->
+	<!-- 
 	<div class="row3">
 		<div class="col-lg-4"> tile 01 
 			<br><br><br><br><br> tsd
@@ -35,6 +98,7 @@
 		<div class="col-lg-3"> tile 04
 			<br><br>asd
 		</div>
+		
 	</div>
 	<div class="row4">
 		<div class="col-lg-4 s"> tile 01 
@@ -55,6 +119,7 @@
 		<div class="col-lg-8 pull-lg-2"> content goes here 
 		</div>
 	</div>
+	!-->
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
