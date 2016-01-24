@@ -31,7 +31,7 @@
 	text-align: right;
 }
 
-/* for New Mosaic */
+/* for New JavaScript Mosaic */
 .grid-item { 
     width: 200px; 
     position: absolute
@@ -39,4 +39,22 @@
 .grid-item--width2 { 
     width: 400px; 
     position: absolute
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h3 { 
+   color:floralwhite;
+   position: absolute; 
+   bottom: 0; left: 0.0em; width: 200px 
+   left: 0; 
+   width: 100%;
+   background: rgba(0, 0, 0, 0.7);
+}
+
+.grid {
+    padding-left: 70px
 }
