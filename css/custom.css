@@ -1,34 +1,24 @@
+/* font */
+
+@font-face {
+font-family: 'BTitrBold';
+src: url('/fonts/BTitrBold.eot');
+src: local('BTitrBold'), url('fonts/BTitrBold.woff') format('woff'), url('fonts/BTitrBold.ttf') format('truetype'), url('BTitrBold.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'BCompset';
+src: url('/fonts/BCompset.eot');
+src: local('BCompset'), url('fonts/BCompset.woff') format('woff'), url('fonts/BCompset.ttf') format('truetype'), url('BCompset.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
 /* mosaic container */
 .container.tiles {
 	padding-top: 30px;
-}
-
-
-/* Style sheet for second mosaic */
-
-.col-lg-4.s {
-	margin-top: -20px;
-	min-height: 166px;
-}
-.col-lg-3.s {
-	margin-top: -60px;
-	min-height: 206px;
-}
-.col-lg-3.d {
-	margin-top: -80px;
-	min-height: 225px;
-}
-.col-lg-2.s {
-	min-height: 140px;
-}
-.col-lg-12 {
-	text-align: right;
-}
-.col-lg-10 {
-	text-align: right;
-}
-.row2 {
-	text-align: right;
 }
 
 /* for New JavaScript Mosaic */
@@ -58,3 +48,9 @@ h3 {
 .grid {
     padding-left: 70px
 }
+
+/** content **/
+.container.content {
+  padding-top: 30px;
+}
+
