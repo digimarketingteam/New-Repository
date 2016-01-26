@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>marketingera</name>
+	<version>1.0</version>
+	<creationDate>1/26/2016</creationDate>
+	<author>digi marketing team</author>
+	<authorEmail>info@marketing-era.ir</authorEmail>
+	<copyright></copyright>
+	<description> This is template for marketing-era.ir website</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>fonts</folder>
+	</files>
+	<positions>
+		<position>search</position>
+		<position>nav</position>
+		<position>left</position>
+		<position>footer</position>
+	</positions>
+
+</extension>
